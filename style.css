@@ -27,6 +27,7 @@ background-image: url(https://images.pexels.com/photos/1437493/pexels-photo-1437
 }
 .sectie--4 span:nth-child(2){
 	color: red;
+	background: cover;
 }
 .sectie--4 span {
 transition: margin-left 1s ease-out;
@@ -42,5 +43,12 @@ margin-left: +2200px;
 }
 .sectie--6{
 background-image: url(https://images.pexels.com/photos/1647120/pexels-photo-1647120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+#indicator{
+	height: 16px;
+	background-color: royalblue;
+	position: fixed;
+	bottom: 0;
+	width: 50%;
 }
 
